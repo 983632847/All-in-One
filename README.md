@@ -16,10 +16,10 @@ Official Code for [All in One: Exploring Unified Vision-Language Tracking with M
 | All-in-One  | 72.8 |  55.8 | 71.0 | 55.9 | 58.5 | [All-in-One](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ)|
 |Raw Results| [LaSOT]() | [LaSOTEXT]()  | [OTB99-L]() | [TNL2K]() | [WebUAV3M]() | - |
 
-It should be noted that the above pretrained model is trained on an Ubuntu 18.04 server with multiple NVIDIA RTX A6000 GPUs. The above results are reported using [analysis_results.py](./tracking/analysis_results.py). For WebUAV-3M, we recommend the official [evaluation toolkit](https://github.com/983632847/WebUAV-3M). 
+It should be noted that the above pretrained model is trained on an Ubuntu 18.04 server with multiple NVIDIA RTX A6000 Ada GPUs. The above results are reported using [analysis_results.py](./tracking/analysis_results.py). For WebUAV-3M, we recommend the official [evaluation toolkit](https://github.com/983632847/WebUAV-3M). More details will be described in our revised version.
 
 ## Evaluation   
-Download the model [All-in-One](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ), extraction code: `alli`. Add the model to `$PROJECT_ROOT$/All-in-One/lib/models/pretrained_models`.
+Download the model [All-in-One](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ), extraction code: `alli`. Add the model to `$PROJECT_ROOT$/All-in-One/output/checkpoints/train/`.
 ```
 python tracking/test.py --dataset webuav3m --threads 8
 python tracking/analysis_results.py
@@ -28,6 +28,8 @@ python tracking/analysis_results.py
 Before evaluation, please make sure the data path in [***local.py***](./lib/test/evaluation/local.py) is correct.
 
 ## Training
+Download pre-trained [MAE ViT-Base weights](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) and put it to `$PROJECT_ROOT$/All-in-One/lib/models/pretrained_models`.
+
 1.Training with one GPU.
 ```
 cd /$PROJECT_ROOT$/All-in-One/lib/train
