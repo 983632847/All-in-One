@@ -11,7 +11,7 @@ Official Code for [All in One: Exploring Unified Vision-Language Tracking with M
 - timm==0.9.10
 
 ## Results (AUC)
-|  method   | LaSOT | LaSOTEXT | OTB99-L | TNL2K | WebUAV3M  | Model |
+|  Method   | LaSOT | LaSOTEXT | OTB99-L | TNL2K | WebUAV3M  | Model |
 |:---------:|:-----:|:-----:|:------:|:------:|:------:|:------:|
 | All-in-One  | 72.8 |  55.8 | 71.0 | 55.9 | 58.5 | [All-in-One](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link)|
 |Raw Results| [LaSOT]([journal](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link)) | [LaSOTEXT](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link)  | [OTB99-L](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link) | [TNL2K](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link) | [WebUAV3M](https://drive.google.com/drive/folders/1nwOgDDVx8JROPkhr65tmpzmWa3RPCAOA?usp=drive_link) | - |
