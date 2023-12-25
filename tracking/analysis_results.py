@@ -16,8 +16,8 @@ python analysis_results.py
 #dataset_name = 'lasot'
 #dataset_name = 'lasotext'
 #dataset_name = 'tnl2k'
-dataset_name = 'otb99lang'
-#dataset_name = 'webuav3m'
+#dataset_name = 'otb99lang'
+dataset_name = 'webuav3m'
 
 
 """stark"""
