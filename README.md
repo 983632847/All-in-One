@@ -13,10 +13,10 @@ Official Code for [All in One: Exploring Unified Vision-Language Tracking with M
 ## Results (AUC)
 |  method   | LaSOT | LaSOTEXT | OTB99-L | TNL2K | WebUAV3M  | Model |
 |:---------:|:-----:|:-----:|:------:|:------:|:------:|:------:|
-| All-in-One  | 72.8 |  55.8 | 71.0 | 55.9 | 58.5 | [All-in-One](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ)|
-|Raw Results| [LaSOT]() | [LaSOTEXT]()  | [OTB99-L]() | [TNL2K]() | [WebUAV3M]() | - |
+| All-in-One  | 72.8 |  55.8 | 71.0 | 55.9 | 58.5 | [All-in-One]()|
+|Raw Results| [LaSOT](journal) | [LaSOTEXT]()  | [OTB99-L]() | [TNL2K]() | [WebUAV3M]() | - |
 
-It should be noted that the above pretrained model is trained on an Ubuntu 18.04 server with multiple NVIDIA RTX A6000 Ada GPUs. The above results are reported using [analysis_results.py](./tracking/analysis_results.py). For WebUAV-3M, we recommend the official [evaluation toolkit](https://github.com/983632847/WebUAV-3M). More details will be described in our revised version.
+It should be noted that the above pretrained model is trained on an Ubuntu 18.04 server with multiple NVIDIA RTX A6000 Ada GPUs. The above results are reported using [analysis_results.py](./tracking/analysis_results.py). For WebUAV-3M, we recommend the official [evaluation toolkit](https://github.com/983632847/WebUAV-3M). This is a work in progress. More details will be described in our journal version. Download the model weights and raw results from [Baidu Pan](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ), extraction code: `alli`.
 
 ## Evaluation   
 Download the model [All-in-One](https://pan.baidu.com/s/1OgAFG_LPh9ti4SCt88ILWQ), extraction code: `alli`. Add the model to `$PROJECT_ROOT$/All-in-One/output/checkpoints/train/`.
